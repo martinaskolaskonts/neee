@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="nav.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="navas">
+        <a href="https://komatieris.lv">Sākums</a>
+        <a href="/index.php#parmums">Par mums</a>
+        <a href="https://komatieris.lv/kontakti">Kontakti</a>
+      </div>
+      <div class="pogas">
+        <a href="kodi.html">Komatieris +</a>
+      </div>
+    </nav>
+    <div id="ieksa">
+      <div id="ieksa-ieksa">
+        <h2>Skolēnu mācību uzņēmums</h2>
+        <h1>Komatieris</h1>
+        <div class="pogasfake">
+          <a href="kodi.html">Komatieris +</a>
+        </div>
+      </div>
+    </div>
+    <section class="temas">
+      <table class="vtli tabulas">
+        <tr>
+          <th>Vienlīdzīgi teikuma locekļi</th>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/vtl/viens">1.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/vtl/divi">2.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/vtl/tris">3.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/vtl/cetri">4.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs teorijas">
+            <a href="/vtl/teorija">Teorijas jautājumi</a>
+          </td>
+        </tr>
+      </table>
+
+      <table class="ssti tabulas">
+        <tr>
+          <th>Salikts sakārtots teikums</th>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/sst/viens">1.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/sst/divi">2.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/sst/tris">3.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/sst/cetri">4.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs teorijas">
+            <a href="/sst/teorija">Teorijas jautājumi</a>
+          </td>
+        </tr>
+      </table>
+
+      <table class="spti tabulas">
+        <tr>
+          <th>Salikts pakārtots teikums</th>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/spt/viens">1.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/spt/divi">2.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/spt/tris">3.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/spt/cetri">4.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs teorijas">
+            <a href="/spt/teorija">Teorijas jautājumi</a>
+          </td>
+        </tr>
+      </table>
+
+      <?php 
+          if(isset($_SESSION["prem"]) &&  $_SESSION["prem"] == 1) {
+        ?>
+      <table class="ddti tabulas">
+        <tr>
+          <th>Divdabja teiciens</th>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/ddt/viens">1.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/ddt/divi">2.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/ddt/tris">3.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/ddt/cetri">4.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs teorijas">
+            <a href="/ddt/teorija">Teorijas jautājumi</a>
+          </td>
+        </tr>
+      </table>
+
+      <table class="uzri tabulas">
+        <tr>
+          <th>Uzruna</th>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/uzr/viens">1.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/uzr/divi">2.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/uzr/tris">3.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/uzr/cetri">4.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs teorijas">
+            <a href="/uzr/teorija">Teorijas jautājumi</a>
+          </td>
+        </tr>
+      </table>
+
+      <table class="tsri tabulas">
+        <tr>
+          <th>Tiešā runa</th>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/tsr/viens">1.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/tsr/divi">2.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/tsr/tris">3.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/tsr/cetri">4.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs teorijas">
+            <a href="/tsr/teorija">Teorijas jautājumi</a>
+          </td>
+        </tr>
+      </table>
+
+      <table class="svri tabulas">
+        <tr>
+          <th>Savrupinājumi</th>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/svr/viens">1.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/svr/divi">2.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/svr/tris">3.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs">
+            <a href="/svr/cetri">4.līmenis</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="trs teorijas">
+            <a href="/svr/teorija">Teorijas jautājumi</a>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <div id="shh">
+      <div id="parmums">
+        <h1>par mums</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          eget iaculis metus, vel malesuada nisi. Praesent accumsan volutpat
+          enim sit amet porttitor. Suspendisse ipsum sem, porta eget quam a,
+          porta accumsan tortor. Nunc mollis dui tellus, vel sollicitudin mi
+          luctus quis. Aliquam erat volutpat. Nunc iaculis mattis nisi, eu
+          hendrerit nisl finibus vel. Suspendisse molestie ipsum at quam
+          dignissim venenatis. Ut quis laoreet ante. Nunc at laoreet nisi. Cras
+          viverra consequat tellus, sed suscipit quam venenatis non.
+          Pellentesque sit amet lectus non ante condimentum egestas eu a orci.
+          Sed risus massa, pretium ut eros vel, iaculis iaculis justo. Donec
+          commodo dolor mauris, non laoreet ex ullamcorper sit amet. Sed egestas
+          posuere urna sit amet dictum. Morbi at leo ligula. Aenean ligula
+          tortor, blandit vel lorem eu, cursus gravida metus. Nam varius eget
+          massa et semper. Nulla euismod neque auctor mi pretium, eu venenatis
+          odio tempus. Fusce mauris turpis, hendrerit ut imperdiet convallis,
+          egestas ac nisi. Etiam dignissim orci id finibus tincidunt. Quisque id
+          rhoncus quam. Morbi sollicitudin sollicitudin orci, ultricies lacinia
+          dui luctus sed. Aenean auctor metus dolor, nec tempor libero pharetra
+          ut. Ut sollicitudin at dui et lacinia. Vivamus vitae metus vulputate,
+          maximus leo sit amet, elementum erat. Duis sollicitudin libero eu
+          hendrerit bibendum. Vivamus elit velit, tempor in ornare ac, pulvinar
+          sit amet massa. Integer malesuada dolor nulla, vel vestibulum mauris
+          mollis quis. Ut pellentesque commodo mattis. Vivamus diam sapien,
+          porta et magna quis, elementum tincidunt mi.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <p>© Komatieris, 2023</p>
+    </footer>
+  </body>
+</html>

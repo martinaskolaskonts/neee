@@ -1,0 +1,50 @@
+:root {
+  --red: #bf5e5e;
+  --reder: #ba4343;
+  --redest: #9e3a3a;
+}
+body {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.visvisums {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: white;
+  width: 25%;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 10px;
+}
+.visums {
+  padding: 15px;
+}
+label {
+  font-size: 2.5em;
+  padding-bottom: 5px;
+}
+input {
+  font-size: 2em;
+  color: black;
+  border: 3px solid black;
+  padding: 0 10px;
+  border-radius: 2em;
+  width: 100%;
+}
+button {
+  background: none;
+  border: 2px solid var(--redest);
+  border-radius: 5px;
+  margin-top: 20px;
+  color: var(--redest);
+  font-size: 1em;
+  padding: 6px 5px;
+  transition: background 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+button:hover, a:hover {
+  background: var(--redest);
+  color: white;
+  cursor: pointer;
+}

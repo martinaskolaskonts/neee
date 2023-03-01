@@ -1,0 +1,20 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #9e3a3a;
+  padding: 2vh;
+}
+.grid-item {
+  background-color: #bf5e5e;
+  border: 1px solid white;
+  padding: 6.5vh 22.8vw;
+  text-align: center;
+  font-size: 15vh;
+  font-family: "Dosis", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.teorija {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

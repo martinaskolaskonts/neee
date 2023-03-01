@@ -1,0 +1,258 @@
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: lightgray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: darkgray;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
+::-webkit-scrollbar-corner {
+  background: darkgray;
+}
+:root {
+  --gr-1: #7ea16b;
+  --gr-2: #8faf76;
+  --gr-3: #b2cb8d;
+  --gr-4: #c3d898;
+  --gr-5: #d3d7c7;
+  --vi-5: #e3d6f5;
+  --vi-4: #cebde6;
+  --vi-3: #b9a4d6;
+  --vi-2: #a084c8;
+  --vi-1: #966fce;
+}
+@media (hover: none) {
+  :root {
+    --hundred: 100vw;
+  }
+}
+@media (hover: hover) {
+  :root {
+    --hundred: calc(100vw - 20px);
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Calibri", sans-serif;
+  overflow-x: hidden;
+  /*font-family: 'Montserrat', sans-serif;*/
+}
+body {
+  align-items: center;
+  justify-content: center;
+  width: var(--hundred);
+  background: var(--main);
+}
+nav {
+  display: flex;
+  text-align: center;
+  width: var(--hundred);
+  background: var(--secn);
+  padding: 5px;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+}
+nav div {
+  display: inherit;
+}
+nav div a {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px;
+  color: var(--main);
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+#ieksa {
+  display: flex;
+  flex-direction: column;
+  width: var(--hundred);
+  background: var(--main);
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  height: 300px;
+}
+#ieksa-ieksa {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+}
+#ieksa h2 {
+  position: relative;
+  left: 3px;
+  color: var(--secn);
+  font-size: 1.75rem;
+}
+#ieksa h1 {
+  text-transform: uppercase;
+  color: var(--secn);
+  font-size: 6rem;
+  margin-top: -15px;
+  margin-bottom: -5px;
+}
+.pogas {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  right: 0;
+}
+.pogas p {
+  color: var(--main);
+  font-weight: bold;
+  display: flex;
+  margin: 20px;
+}
+.pogas:last-child {
+  margin-right: 9px;
+}
+.pogas a,
+.pogasfake a {
+  padding: 10px;
+  margin: 10px 5px;
+  display: block;
+  background: var(--main);
+  color: var(--secn);
+  border-radius: 100px;
+  width: 125px;
+}
+.pogasfake a {
+  background: var(--secn);
+  color: var(--main);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+.pogasfake {
+  display: none;
+}
+#parmums h1 {
+  color: var(--secn);
+  margin: 50px 50px 10px 100px;
+  font-size: 3rem;
+}
+#parmums h1 {
+  color: var(--secn);
+  margin: 50px 50px 10px 100px;
+  font-size: 3rem;
+}
+#parmums p {
+  border-radius: 25px;
+  text-align: justify;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: var(--secn);
+  margin: 20px 0 20px 100px;
+  width: 60%;
+  padding: 10px;
+}
+footer {
+  background: var(--main);
+  text-align: center;
+}
+footer p {
+  padding: 20px;
+  color: var(--secn);
+}
+.temas {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background: var(--secn);
+  padding: 5vh 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#shh {
+  background: var(--secn);
+}
+#parmums {
+  background: var(--main);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+tr {
+  text-align: center;
+  background: var(--main);
+}
+.trs {
+  padding: 1vh 0;
+  border: 1px solid var(--main);
+  border-top: none;
+}
+.trs a {
+  text-decoration: none;
+  color: var(--main-dark);
+}
+.teorijas {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+table {
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+  border-spacing: 0;
+  min-width: 16rem;
+}
+th {
+  padding: 1vh 2vw;
+  margin: 0 2vw;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background: var(--main);
+  text-align: center;
+  color: var(--secn);
+  z-index: 100;
+  font-size: 1.125rem;
+}
+@media (max-width: 811px) {
+  nav div a {
+    padding: 20px;
+    height: 20px;
+    overflow: hidden;
+  }
+  #parmums h1 {
+    font-size: 2.5rem;
+  }
+  #parmums p {
+    padding: 10px 15px;
+    width: 80vw;
+    margin-left: 6.5vw;
+  }
+  @media (max-width: 700px) {
+    .pogas {
+      display: none;
+    }
+    .pogasfake {
+      display: flex;
+      flex-direction: row;
+    }
+    #ieksa h2 {
+      font-size: 1.25rem;
+    }
+    #ieksa h1 {
+      font-size: 3rem;
+      margin: -5px 0;
+    }
+  }
+}
